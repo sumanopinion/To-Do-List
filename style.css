@@ -1,0 +1,93 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container{
+  border:10px solid #BBA0CA;
+  border-radius: 10px;
+}
+h1{
+  text-align: center;
+  color: darkcyan;
+}
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+#todoInput {
+  height: 24px;
+  width:45vw;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+}
+#addTask {
+  background-color: #662C91;
+  width: 30px;
+  height: 25px;
+}
+#todoList{
+  margin: 15px;
+}
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 10px;
+  width: 50vw;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+.todoItem span {
+  text-align: center;
+  margin-right: 10px;
+  width: 70%;
+  overflow: hidden;
+}
+.todoItem.checked {
+  background-color: #84DCCF;
+}
+input[type="checkbox"] {
+  accent-color: #6e3c6a;
+}
+button {
+  margin: 5px;
+  border: none;
+  background:transparent;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.fas {
+  color: #2F2F2F;
+}
+
+.fa-plus {
+  color: white;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #662C91;
+  background-color: #ad87c1;
+}
+.footer .source{
+  height: 0ch;
+  margin-left: 10px;
+}
+.footer .source a{
+  font-weight: 600;
+  font-size: 10px;
+}
+.footer .create p{
+  font-weight: 800;
+  margin-right: 10px;
+  color: #662C91;
+  font-size: 10px;
+  margin-left: 2px;
+}
